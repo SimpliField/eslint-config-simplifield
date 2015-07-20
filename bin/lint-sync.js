@@ -12,11 +12,12 @@ var sfLintConfig = path.join(__dirname, '..', LINT_FILE);
 var oldContent = fs.readFileSync(projectLintConfig, 'utf-8');
 
 // Remove automatically generated contents
-oldContent = oldContent.split('\r?\n\r?\n\r?\n')[0];
+oldContent = oldContent.split(/\r?\n\r?\n\r?\n/)[0];
 
 // Put it to the project file
 var outputStream = fs.createWriteStream(projectLintConfig);
 outputStream.write(oldContent);
+outputStream.write('\n\n\n');
 
 fs.createReadStream(sfLintConfig)
   .pipe(outputStream);
