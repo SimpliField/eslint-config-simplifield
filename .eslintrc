@@ -120,7 +120,7 @@ rules:
     - 2
     - never
   brace-style: 0
-  camelcase: 2
+  camelcase: 0
   comma-spacing: 
     - 2
     -
