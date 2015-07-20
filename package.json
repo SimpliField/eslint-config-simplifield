@@ -1,0 +1,15 @@
+{
+  "name": "sl-lint",
+  "version": "0.0.1",
+  "description": "Simplifield Lint rules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimpliField/sf-lint"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/SimpliField/sf-lint",
+  "keywords": [
+    "eslint",
+    "simplifield"
+  ]
+}
