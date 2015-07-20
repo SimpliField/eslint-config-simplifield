@@ -11,5 +11,8 @@
   "keywords": [
     "eslint",
     "simplifield"
-  ]
+  ],
+  "bin" : {
+    "sf-lint-sync" : "./bin/lint-sync.js"
+  }
 }
