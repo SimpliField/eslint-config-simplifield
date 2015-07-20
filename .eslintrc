@@ -139,7 +139,7 @@ rules:
   func-names: 2
   func-style:
     - 2
-    - expression
+    - declaration
   indent:
     - 2
     - 2
