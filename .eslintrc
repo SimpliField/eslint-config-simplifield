@@ -231,7 +231,7 @@ rules:
   wrap-regex: 2
   max-len: 
     - 2
-    - 80
+    - 100
     - 2
   max-params:
     - 2
