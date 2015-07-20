@@ -1,6 +1,6 @@
 {
   "name": "sl-lint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simplifield Lint rules",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "eslint",
     "simplifield"
   ],
-  "bin" : {
-    "sf-lint-sync" : "./bin/lint-sync.js"
+  "bin": {
+    "sf-lint-sync": "./bin/lint-sync.js"
   }
 }
