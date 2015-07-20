@@ -136,7 +136,7 @@ rules:
     - 2
     - _this
   eol-last: 2
-  func-names: 2
+  func-names: 0
   func-style:
     - 2
     - declaration
@@ -212,9 +212,7 @@ rules:
     - 2
     - always
   sort-vars: 0
-  space-after-keywords:
-    - 2
-    - never
+  space-after-keywords: 0
   space-before-blocks:
     - 2
     - always
