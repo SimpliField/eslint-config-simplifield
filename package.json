@@ -1,6 +1,6 @@
 {
   "name": "sf-lint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simplifield Lint rules",
   "repository": {
     "type": "git",
