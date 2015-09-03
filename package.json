@@ -1,7 +1,10 @@
 {
-  "name": "sf-lint",
-  "version": "1.0.2",
+  "name": "eslint-config-simplifield",
+  "version": "1.0.3",
   "description": "Simplifield Lint rules",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/SimpliField/sf-lint"
@@ -10,9 +13,10 @@
   "homepage": "https://github.com/SimpliField/sf-lint",
   "keywords": [
     "eslint",
+    "eslintconfig",
     "simplifield"
   ],
-  "bin": {
-    "sf-lint-sync": "./bin/lint-sync.js"
+  "devDependencies": {
+    "eslint": "^1.3.1"
   }
 }
