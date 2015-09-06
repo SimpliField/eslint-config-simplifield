@@ -145,7 +145,7 @@ module.exports = {
       "_this"
     ],
     "eol-last": 2,
-    "func-names": 0,
+    "func-names": 1,
     "func-style": [
       2,
       "declaration"
