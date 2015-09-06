@@ -269,6 +269,20 @@ module.exports = {
     "max-params": [
       2,
       4
-    ]
+    ],
+    "require-yield": 2,
+    "prefer-spread": 0,
+    "prefer-reflect": 0,
+    "no-useless-call": 2,
+    "no-invalid-this": 1,
+    "no-implicit-coercion": 0,
+    "no-const-assign": 2,
+    "no-class-assign": 2,
+    "init-declarations": 0,
+    "id-match": 0,
+    "id-length": 0,
+    "callback-return": [2, ["callback", "cb", "next", "done"]],
+    "arrow-spacing": 2,
+    "arrow-parens": 2,
   }
 };
