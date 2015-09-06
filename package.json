@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SimpliField/sf-lint"
+    "url": "https://github.com/SimpliField/eslint-config-simplifield"
   },
   "license": "MIT",
-  "homepage": "https://github.com/SimpliField/sf-lint",
+  "homepage": "https://github.com/SimpliField/eslint-config-simplifield",
   "keywords": [
     "eslint",
     "eslintconfig",
