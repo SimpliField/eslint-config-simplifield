@@ -284,5 +284,15 @@ module.exports = {
     "callback-return": [2, ["callback", "cb", "next", "done"]],
     "arrow-spacing": 2,
     "arrow-parens": 2,
+    "block-spacing": [2, "always"],
+    "no-dupe-class-members": 0,
+    "prefer-arrow-callback": 0,
+    "prefer-template": 0,
+    "no-useless-concat" : 2,
+    "jsx-quotes": 0,
+    "require-jsdoc": 0,
+    "global-require": 2,
+    "no-restricted-syntax": [0],
+    "space-before-keywords": [2, "always"],
   }
 };
