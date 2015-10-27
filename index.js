@@ -51,7 +51,7 @@ module.exports = {
     "consistent-return": 2,
     "consistent-this": [
       2,
-      "_this"
+      "vm"
     ],
     "curly": 2,
     "default-case": 2,
