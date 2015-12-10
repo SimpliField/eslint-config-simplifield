@@ -114,10 +114,7 @@ module.exports = {
       }
     ],
     "new-parens": 2,
-    "newline-after-var": [
-      2,
-      "always"
-    ],
+    "newline-after-var": 0,
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
