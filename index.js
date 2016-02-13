@@ -51,6 +51,7 @@ module.exports = {
     "consistent-return": 2,
     "consistent-this": [
       2,
+      "_this",
       "vm"
     ],
     "curly": 2,
@@ -114,7 +115,7 @@ module.exports = {
       }
     ],
     "new-parens": 2,
-    "newline-after-var": 0,
+    "newline-after-var": 1,
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
