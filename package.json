@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplifield",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Simplifield Lint rules",
   "scripts": {
     "lint": "eslint index.js"
