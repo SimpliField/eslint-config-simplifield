@@ -261,7 +261,14 @@ module.exports = {
       2,
       'never',
     ],
-    'keyword-spacing': 2,
+    'keyword-spacing': [
+      2,
+      { before: true, after: true, overrides: {
+        if: { after: false },
+        for: { after: false },
+        while: { after: false },
+      } },
+    ],
     'space-in-parens': [
       2,
       'never',
