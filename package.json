@@ -17,6 +17,6 @@
     "simplifield"
   ],
   "devDependencies": {
-    "eslint": "^1.5.1"
+    "eslint": "^2.11.1"
   }
 }
