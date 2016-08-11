@@ -18,7 +18,7 @@
     "simplifield"
   ],
   "devDependencies": {
-    "eslint": "^2.11.1",
+    "eslint": "^3.2.2",
     "mocha": "^3.0.2"
   },
   "dependencies": {
