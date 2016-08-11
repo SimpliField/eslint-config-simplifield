@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Simplifield Lint rules",
   "scripts": {
+    "test": "mocha test/*.mocha.js",
     "lint": "eslint index.js"
   },
   "repository": {
@@ -17,7 +18,8 @@
     "simplifield"
   ],
   "devDependencies": {
-    "eslint": "^2.11.1"
+    "eslint": "^2.11.1",
+    "mocha": "^3.0.2"
   },
   "dependencies": {
     "eslint-config-angular": "^0.5.0",
