@@ -4,7 +4,7 @@
   "description": "Simplifield Lint rules",
   "scripts": {
     "test": "mocha test/*.mocha.js",
-    "lint": "eslint index.js"
+    "lint": "eslint index.js lib/*.js"
   },
   "repository": {
     "type": "git",
