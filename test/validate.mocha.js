@@ -27,8 +27,9 @@ describe('load config in eslint to check syntax', () => {
     it('should return no error', () => {
       const code = `
         var beer = 4;
+        var cost = 2.5;
 
-        function bar(drink) { return drink * 4; }
+        function bar(drink) { return drink * cost; }
         bar(beer);\n`;
 
       assertCode(code);
@@ -47,8 +48,9 @@ describe('load config in eslint to check syntax', () => {
       const code = `
         'use strict';
         const beer = 4;
+        const cost = 2.5;
 
-        function bar(drink) { return drink * 4; }
+        function bar(drink) { return drink * cost; }
         bar(beer);\n`;
 
       assertCode(code);
@@ -67,8 +69,9 @@ describe('load config in eslint to check syntax', () => {
         (function iife() {
           'use strict';
           const beer = 4;
+          const cost = 2.5;
 
-          function bar(drink) { return drink * 4; }
+          function bar(drink) { return drink * cost; }
           bar(beer);
         }());\n`;
 
