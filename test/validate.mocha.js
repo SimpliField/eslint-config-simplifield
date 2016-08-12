@@ -8,6 +8,14 @@ describe('load config in eslint to check syntax', () => {
   const CLIEngine = eslint.CLIEngine;
   let cli;
 
+  function assertCode(code) {
+    const output = cli.executeOnText(code);
+
+    assert.deepEqual(output.results[0].messages, []);
+    assert.equal(output.errorCount, 0);
+    assert.equal(output.warningCount, 0);
+  }
+
   describe('with default configuration', () => {
     beforeEach(() => {
       cli = new CLIEngine({
@@ -19,12 +27,12 @@ describe('load config in eslint to check syntax', () => {
     it('should return no error', () => {
       const code = `
         var beer = 4;
+        var cost = 2.5;
 
-        function bar(drink) { return drink * 4; }
+        function bar(drink) { return drink * cost; }
         bar(beer);\n`;
 
-      assert.equal(cli.executeOnText(code).errorCount, 0);
-      assert.equal(cli.executeOnText(code).warningCount, 0);
+      assertCode(code);
     });
   });
 
@@ -40,12 +48,12 @@ describe('load config in eslint to check syntax', () => {
       const code = `
         'use strict';
         const beer = 4;
+        const cost = 2.5;
 
-        function bar(drink) { return drink * 4; }
+        function bar(drink) { return drink * cost; }
         bar(beer);\n`;
 
-      assert.equal(cli.executeOnText(code).errorCount, 0);
-      assert.equal(cli.executeOnText(code).warningCount, 0);
+      assertCode(code);
     });
   });
   describe('with frontend configuration', () => {
@@ -61,13 +69,13 @@ describe('load config in eslint to check syntax', () => {
         (function iife() {
           'use strict';
           const beer = 4;
+          const cost = 2.5;
 
-          function bar(drink) { return drink * 4; }
+          function bar(drink) { return drink * cost; }
           bar(beer);
         }());\n`;
 
-      assert.equal(cli.executeOnText(code).errorCount, 0);
-      assert.equal(cli.executeOnText(code).warningCount, 0);
+      assertCode(code);
     });
   });
 });
