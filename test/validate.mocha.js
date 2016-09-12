@@ -49,15 +49,15 @@ describe('load config in eslint to check syntax', () => {
           column: 9,
           line: 4,
           message: '\'describe.only\' is restricted from being used. ' +
-            'Please avoid to commit with an .only',
+            'Using describe.only is not allowed',
           nodeType: 'MemberExpression',
           ruleId: 'no-restricted-properties',
-          severity: 1,
+          severity: 2,
           source: '        describe.only();',
         },
       ]);
-      assert.equal(output.errorCount, 0);
-      assert.equal(output.warningCount, 1);
+      assert.equal(output.errorCount, 1);
+      assert.equal(output.warningCount, 0);
     });
   });
 
