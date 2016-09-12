@@ -1,5 +1,5 @@
 /* eslint-env node, mocha */
-/* eslint no-magic-numbers:0 */
+/* eslint no-magic-numbers:0 no-template-curly-in-string:0 */
 'use strict';
 
 const eslint = require('eslint');
@@ -32,6 +32,13 @@ describe('load config in eslint to check syntax', () => {
 
         function bar(drink) { return drink * cost; }
         bar(beer);\n`;
+
+      assertCode(code);
+    });
+
+    it('should allow to declare function with fat arrows', () => {
+      const code = 'const hello = name => `hello ${name}`;\n\n' +
+        'hello(\'seb\');\n';
 
       assertCode(code);
     });
