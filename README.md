@@ -2,6 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/eslint-config-simplifield.svg)](https://npmjs.org/package/eslint-config-simplifield)
 [![Build status](https://secure.travis-ci.org/SimpliField/eslint-config-simplifield.svg)](https://travis-ci.org/SimpliField/eslint-config-simplifield)
+[![CodeFactor](https://www.codefactor.io/repository/github/simplifield/eslint-config-simplifield/badge)](https://www.codefactor.io/repository/github/simplifield/eslint-config-simplifield)
 [![Dependency Status](https://dependencyci.com/github/SimpliField/eslint-config-simplifield/badge)](https://dependencyci.com/github/SimpliField/eslint-config-simplifield)
 [![Dependency Status](https://david-dm.org/SimpliField/eslint-config-simplifield.svg)](https://david-dm.org/SimpliField/eslint-config-simplifield)
 [![devDependency Status](https://david-dm.org/SimpliField/eslint-config-simplifield/dev-status.svg)](https://david-dm.org/SimpliField/eslint-config-simplifield#info=devDependencies)
