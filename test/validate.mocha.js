@@ -99,7 +99,6 @@ describe('load config in eslint to check syntax', () => {
     it('should return no error', () => {
       const code = `
         (function iife() {
-          'use strict';
           const beer = 4;
           const cost = 2.5;
 
