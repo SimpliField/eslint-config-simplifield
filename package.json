@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplifield",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "Simplifield Lint rules",
   "scripts": {
     "test": "mocha test/*.mocha.js",
