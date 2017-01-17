@@ -27,7 +27,7 @@ describe('max-length rule', () => {
 
     it('should ignore imports', () => {
       const code = `
-        import unknownModule from './really/really/really/really/really/really/really/really/long/module';
+        import unknownModule from './${'really/'.repeat(9)}/long/module';
 
         var beer = 4;
 
@@ -38,7 +38,7 @@ describe('max-length rule', () => {
 
     it('should work otherwise', () => {
       const code = `
-        const aReallyLongUrl = 'https://www.google.fr/?q=really,really,really,really,really,really,really,really,long,query';
+        const aReallyLongUrl = 'https://www.google.fr/?q=${'really,'.repeat(8)}long,query';
         const getLength = str => str.length;
 
         getLength(aReallyLongUrl);\n`;
