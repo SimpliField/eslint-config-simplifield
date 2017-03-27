@@ -258,9 +258,9 @@ eslint-config-angular@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-angular/-/eslint-config-angular-0.5.0.tgz#e0aae0132e39e7467df3f7547fec81a44d3685c4"
 
-eslint-plugin-angular@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-1.6.1.tgz#5d108533da6497d7899ae9be626aabbb4e4879b2"
+eslint-plugin-angular@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-2.2.0.tgz#d074fcd1438ce5df920a39ba4b52247ef46ed45b"
 
 eslint-plugin-mongodb@0.2.4:
   version "0.2.4"
