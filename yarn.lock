@@ -258,9 +258,9 @@ eslint-config-angular@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-angular/-/eslint-config-angular-0.5.0.tgz#e0aae0132e39e7467df3f7547fec81a44d3685c4"
 
-eslint-plugin-angular@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-1.6.1.tgz#5d108533da6497d7899ae9be626aabbb4e4879b2"
+eslint-plugin-angular@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-2.2.0.tgz#d074fcd1438ce5df920a39ba4b52247ef46ed45b"
 
 eslint-plugin-mongodb@0.2.4:
   version "0.2.4"
@@ -268,9 +268,9 @@ eslint-plugin-mongodb@0.2.4:
   dependencies:
     yerror "^1.0.1"
 
-eslint-plugin-node@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-3.0.4.tgz#e1a91f580ec081e4eda92772322103230f9f7a28"
+eslint-plugin-node@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-4.2.1.tgz#52e8e06595d0be63a25fdc237be5e42b69a46eaa"
   dependencies:
     ignore "^3.0.11"
     minimatch "^3.0.2"
@@ -278,9 +278,9 @@ eslint-plugin-node@3.0.4:
     resolve "^1.1.7"
     semver "5.3.0"
 
-eslint-plugin-promise@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.0.0.tgz#1528635d0160f3484e425cce2169cb74cec0186a"
+eslint-plugin-promise@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
 eslint@3.18.0:
   version "3.18.0"
