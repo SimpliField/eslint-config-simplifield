@@ -8,13 +8,13 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
+acorn@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a"
+
 acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
-
-acorn@^4.0.1:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.3.tgz#1a3e850b428e73ba6b09d1cc527f5aaad4d03ef1"
 
 ajv-keywords@^1.0.0:
   version "1.2.0"
@@ -250,23 +250,23 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-angular@^0.5.0:
+eslint-config-angular@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-angular/-/eslint-config-angular-0.5.0.tgz#e0aae0132e39e7467df3f7547fec81a44d3685c4"
 
-eslint-plugin-angular@^1.3.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-1.5.0.tgz#dabb4ed25ba42f59086203cc56564bfd053c4eb0"
+eslint-plugin-angular@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-1.6.1.tgz#5d108533da6497d7899ae9be626aabbb4e4879b2"
 
-eslint-plugin-mongodb@^0.2.4:
+eslint-plugin-mongodb@0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-mongodb/-/eslint-plugin-mongodb-0.2.4.tgz#0bd410770e0e4804cdb52f49ce7e19ed5b3492d8"
   dependencies:
     yerror "^1.0.1"
 
-eslint-plugin-node@^3.0.4:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-3.0.5.tgz#03c8e23c6011eabd240e7ebf3556ec6e50fc734e"
+eslint-plugin-node@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-3.0.4.tgz#e1a91f580ec081e4eda92772322103230f9f7a28"
   dependencies:
     ignore "^3.0.11"
     minimatch "^3.0.2"
@@ -274,13 +274,13 @@ eslint-plugin-node@^3.0.4:
     resolve "^1.1.7"
     semver "5.3.0"
 
-eslint-plugin-promise@^3.0.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.4.0.tgz#6ba9048c2df57be77d036e0c68918bc9b4fc4195"
+eslint-plugin-promise@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.0.0.tgz#1528635d0160f3484e425cce2169cb74cec0186a"
 
-eslint@^3.13.0:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.13.1.tgz#564d2646b5efded85df96985332edd91a23bff25"
+eslint@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.15.0.tgz#bdcc6a6c5ffe08160e7b93c066695362a91e30f2"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -288,7 +288,7 @@ eslint@^3.13.0:
     debug "^2.1.1"
     doctrine "^1.2.2"
     escope "^3.6.0"
-    espree "^3.3.1"
+    espree "^3.4.0"
     estraverse "^4.2.0"
     esutils "^2.0.2"
     file-entry-cache "^2.0.0"
@@ -317,11 +317,11 @@ eslint@^3.13.0:
     text-table "~0.2.0"
     user-home "^2.0.0"
 
-espree@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-3.3.2.tgz#dbf3fadeb4ecb4d4778303e50103b3d36c88b89c"
+espree@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-3.4.0.tgz#41656fa5628e042878025ef467e78f125cb86e1d"
   dependencies:
-    acorn "^4.0.1"
+    acorn "4.0.4"
     acorn-jsx "^3.0.0"
 
 esprima@^2.6.0:
@@ -640,7 +640,7 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha@^3.0.2:
+mocha@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-3.2.0.tgz#7dc4f45e5088075171a68896814e6ae9eb7a85e3"
   dependencies:
