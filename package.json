@@ -18,7 +18,7 @@
     "simplifield"
   ],
   "devDependencies": {
-    "eslint": "3.15.0",
+    "eslint": "3.18.0",
     "mocha": "3.2.0"
   },
   "peerDependencies": {
@@ -28,7 +28,7 @@
     "eslint-config-angular": "0.5.0",
     "eslint-plugin-angular": "1.6.1",
     "eslint-plugin-mongodb": "0.2.4",
-    "eslint-plugin-node": "^3.0.4",
-    "eslint-plugin-promise": "^3.0.0"
+    "eslint-plugin-node": "3.0.4",
+    "eslint-plugin-promise": "3.0.0"
   }
 }
