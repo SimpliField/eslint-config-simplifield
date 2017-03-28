@@ -36,6 +36,18 @@ describe('max-length rule', () => {
       assertCode(code);
     });
 
+    it('should ignore imports without indent', () => {
+      const code = `
+import unknownModule from './modal-result-edit/components/sf-report-edit-field/sf-report-edit-field.component';
+
+var beer = 4;
+
+unknownModule.bar(beer);\n`;
+
+      assertCode(code);
+    });
+
+
     it('should work otherwise', () => {
       const code = `
         const aReallyLongUrl = 'https://www.google.fr/?q=${'really,'.repeat(8)}long,query';
