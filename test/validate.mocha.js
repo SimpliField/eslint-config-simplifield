@@ -27,11 +27,11 @@ describe('load config in eslint to check syntax', () => {
 
     it('should return no error', () => {
       const code = `
-        var beer = 4;
-        var cost = 2.5;
+var beer = 4;
+var cost = 2.5;
 
-        function bar(drink) { return drink * cost; }
-        bar(beer);\n`;
+function bar(drink) { return drink * cost; }
+bar(beer);\n`;
 
       assertCode(code);
     });
@@ -45,22 +45,22 @@ describe('load config in eslint to check syntax', () => {
 
     it('should disallow .only on describe', () => {
       const code = `
-        var describe;
+var describe;
 
-        describe.only();\n`;
+describe.only();\n`;
 
       const output = cli.executeOnText(code);
 
       assert.deepEqual(output.results[0].messages, [
         {
-          column: 9,
+          column: 1,
           line: 4,
           message: '\'describe.only\' is restricted from being used. ' +
             'Using describe.only is not allowed',
           nodeType: 'MemberExpression',
           ruleId: 'no-restricted-properties',
           severity: 2,
-          source: '        describe.only();',
+          source: 'describe.only();',
         },
       ]);
       assert.equal(output.errorCount, 1);
@@ -78,12 +78,12 @@ describe('load config in eslint to check syntax', () => {
 
     it('should return no error', () => {
       const code = `
-        'use strict';
-        const beer = 4;
-        const cost = 2.5;
+'use strict';
+const beer = 4;
+const cost = 2.5;
 
-        function bar(drink) { return drink * cost; }
-        bar(beer);\n`;
+function bar(drink) { return drink * cost; }
+bar(beer);\n`;
 
       assertCode(code);
     });
@@ -98,13 +98,13 @@ describe('load config in eslint to check syntax', () => {
 
     it('should return no error', () => {
       const code = `
-        (function iife() {
-          const beer = 4;
-          const cost = 2.5;
+(function iife() {
+  const beer = 4;
+  const cost = 2.5;
 
-          function bar(drink) { return drink * cost; }
-          bar(beer);
-        }());\n`;
+  function bar(drink) { return drink * cost; }
+  bar(beer);
+}());\n`;
 
       assertCode(code);
     });

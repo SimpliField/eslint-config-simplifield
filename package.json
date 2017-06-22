@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplifield",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "Simplifield Lint rules",
   "scripts": {
     "test": "mocha test/*.mocha.js",
@@ -18,17 +18,15 @@
     "simplifield"
   ],
   "devDependencies": {
-    "eslint": "3.19.0",
-    "mocha": "3.2.0"
+    "eslint": "4.0.0",
+    "mocha": "3.4.2"
   },
-  "peerDependencies": {
-    "eslint": "^3.19.0"
-  },
+  "peerDependencies": {},
   "dependencies": {
     "eslint-config-angular": "0.5.0",
-    "eslint-plugin-angular": "2.2.1",
+    "eslint-plugin-angular": "2.4.2",
     "eslint-plugin-mongodb": "0.2.4",
-    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-node": "5.0.0",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-security": "1.3.0"
   }

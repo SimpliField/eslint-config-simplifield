@@ -27,11 +27,11 @@ describe('max-length rule', () => {
 
     it('should ignore imports', () => {
       const code = `
-        import unknownModule from './${'really/'.repeat(9)}/long/module';
+import unknownModule from './${'really/'.repeat(9)}/long/module';
 
-        var beer = 4;
+var beer = 4;
 
-        unknownModule.bar(beer);\n`;
+unknownModule.bar(beer);\n`;
 
       assertCode(code);
     });
