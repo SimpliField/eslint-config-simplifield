@@ -7,7 +7,7 @@
 [![Dependency Status](https://david-dm.org/SimpliField/eslint-config-simplifield.svg)](https://david-dm.org/SimpliField/eslint-config-simplifield)
 [![devDependency Status](https://david-dm.org/SimpliField/eslint-config-simplifield/dev-status.svg)](https://david-dm.org/SimpliField/eslint-config-simplifield#info=devDependencies)
 
-ESLint configuration at Simplifield.
+> ESLint configuration at Simplifield.
 
 To use those rules in your projects, first, install it
  as a development dependency and than add it to your `.eslintrc` file.
@@ -22,9 +22,10 @@ Theses are our own rules but you can require a reconsideration
 See [shareable configs documentation](http://eslint.org/docs/developer-guide/shareable-configs)
  for more infos.
 
- Sample .eslintrc using this plugin:
- ```json
- {
+## Usage
+Sample `.eslintrc` using this plugin:
+```json
+{
   "extends": "eslint-config-simplifield",
   "env": {
     "node": true,
@@ -44,6 +45,29 @@ See [shareable configs documentation](http://eslint.org/docs/developer-guide/sha
   "plugins": [
     "mongodb"
   ]
+}
+```
+A `.eslintrc` for frontend with react & flow:
+```json
+{
+  "extends": "eslint-config-simplifield/lib/frontend",
+  "plugins": [ "react", "flowtype" ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "keyword-spacing": ["error", { "before": true }],
+    "arrow-parens": ["error", "as-needed"],
+    "operator-linebreak": "off",
+    "no-mixed-operators": "off",
+    "newline-per-chained-call": "off",
+    "indent": "off"
+  }
 }
 ```
 
