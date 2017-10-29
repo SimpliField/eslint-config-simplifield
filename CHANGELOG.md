@@ -1,3 +1,15 @@
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v6.0.0...v6.1.0) (2017-10-29)
+
+
+### Features
+
+* **eslint:** add eslint 4.2 rules ([95073ba](https://github.com/SimpliField/eslint-config-simplifield/commit/95073ba))
+* **eslint:** add eslint 4.6 rules ([5aa1beb](https://github.com/SimpliField/eslint-config-simplifield/commit/5aa1beb))
+* **eslint:** add eslint 4.9 rules ([7f6d221](https://github.com/SimpliField/eslint-config-simplifield/commit/7f6d221))
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v5.1.1...v6.0.0) (2017-06-22)
 
