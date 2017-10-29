@@ -5,7 +5,7 @@
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "test": "mocha test/*.mocha.js",
-    "lint": "eslint index.js lib/*.js test/*.js"
+    "lint": "eslint index.js lib/*.js test/*.js",
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "repository": {
