@@ -46,3 +46,6 @@ See [shareable configs documentation](http://eslint.org/docs/developer-guide/sha
   ]
 }
 ```
+
+## License
+[MIT](LICENSE)
