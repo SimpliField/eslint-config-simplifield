@@ -55,6 +55,8 @@ describe.only();\n`;
         {
           column: 1,
           line: 4,
+          endColumn: 14,
+          endLine: 4,
           message: '\'describe.only\' is restricted from being used. ' +
             'Using describe.only is not allowed',
           nodeType: 'MemberExpression',
