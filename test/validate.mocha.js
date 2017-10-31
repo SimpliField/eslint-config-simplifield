@@ -37,8 +37,7 @@ bar(beer);\n`;
     });
 
     it('should allow to declare function with fat arrows', () => {
-      const code =
-        'const hello = name => `hello ${name}`;\n\n' + "hello('seb');\n";
+      const code = "const hello = name => `hello ${name}`;\n\nhello('seb');\n";
 
       assertCode(code);
     });
