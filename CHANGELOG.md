@@ -1,3 +1,13 @@
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v6.1.0...v7.0.0) (2017-10-31)
+
+
+### Features
+
+* **quotes:** add avoidEscape option to be compatible with prettier ([d1f3328](https://github.com/SimpliField/eslint-config-simplifield/commit/d1f3328))
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v6.0.0...v6.1.0) (2017-10-29)
 
