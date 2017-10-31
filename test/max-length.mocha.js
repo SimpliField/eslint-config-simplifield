@@ -47,22 +47,18 @@ unknownModule.bar(beer);\n`;
       assertCode(code);
     });
 
-
     it('should work otherwise', () => {
       const code = `
-        const aReallyLongUrl = 'https://www.google.fr/?q=${'really,'.repeat(8)}long,query';
+        const aReallyLongUrl = 'https://www.google.fr/?q=${'really,'.repeat(
+          8
+        )}long,query';
         const getLength = str => str.length;
 
         getLength(aReallyLongUrl);\n`;
 
       const output = cli.executeOnText(code);
 
-      assert.deepEqual(
-        output.results[0].messages[0].ruleId,
-        'max-len'
-      );
+      assert.deepEqual(output.results[0].messages[0].ruleId, 'max-len');
     });
-
   });
-
 });

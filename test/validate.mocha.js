@@ -37,8 +37,7 @@ bar(beer);\n`;
     });
 
     it('should allow to declare function with fat arrows', () => {
-      const code = 'const hello = name => `hello ${name}`;\n\n' +
-        'hello(\'seb\');\n';
+      const code = "const hello = name => `hello ${name}`;\n\nhello('seb');\n";
 
       assertCode(code);
     });
@@ -57,7 +56,8 @@ describe.only();\n`;
           line: 4,
           endColumn: 14,
           endLine: 4,
-          message: '\'describe.only\' is restricted from being used. ' +
+          message:
+            "'describe.only' is restricted from being used. " +
             'Using describe.only is not allowed',
           nodeType: 'MemberExpression',
           ruleId: 'no-restricted-properties',
