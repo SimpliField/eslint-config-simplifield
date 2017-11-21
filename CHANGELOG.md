@@ -1,3 +1,18 @@
+<a name="7.0.1"></a>
+## [7.0.1](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.0.0...v7.0.1) (2017-11-21)
+
+
+### Bug Fixes
+
+* **common:** improve integration with prettier ([3f9aa19](https://github.com/SimpliField/eslint-config-simplifield/commit/3f9aa19))
+
+
+### Features
+
+* **backend:** allow node v8 ([bef8302](https://github.com/SimpliField/eslint-config-simplifield/commit/bef8302))
+
+
+
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v6.1.0...v7.0.0) (2017-10-31)
 
