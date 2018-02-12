@@ -1,3 +1,8 @@
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.0.1...v7.1.0) (2018-02-12)
+
+
+
 <a name="7.0.1"></a>
 ## [7.0.1](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.0.0...v7.0.1) (2017-11-21)
 
