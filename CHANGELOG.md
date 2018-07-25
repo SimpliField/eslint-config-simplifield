@@ -1,3 +1,13 @@
+<a name="7.1.1"></a>
+## [7.1.1](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.1.0...v7.1.1) (2018-07-25)
+
+
+### Bug Fixes
+
+* **eslint-plugin-mongodb:** update to 1 to remove yerror1 ([4db2244](https://github.com/SimpliField/eslint-config-simplifield/commit/4db2244))
+
+
+
 <a name="7.1.0"></a>
 # [7.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.0.1...v7.1.0) (2018-02-12)
 
