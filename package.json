@@ -21,6 +21,9 @@
     "eslintconfig",
     "simplifield"
   ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
   "devDependencies": {
     "conventional-changelog-cli": "2.0.1",
     "eslint": "5.2.0",
