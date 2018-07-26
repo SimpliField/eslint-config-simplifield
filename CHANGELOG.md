@@ -1,3 +1,13 @@
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.1.1...v8.0.0) (2018-07-26)
+
+
+### Features
+
+* **eslint:** add eslint 5.0 rules ([7a05c96](https://github.com/SimpliField/eslint-config-simplifield/commit/7a05c96))
+
+
+
 <a name="7.1.1"></a>
 ## [7.1.1](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.1.0...v7.1.1) (2018-07-25)
 
