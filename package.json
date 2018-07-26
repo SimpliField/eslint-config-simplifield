@@ -21,20 +21,23 @@
     "eslintconfig",
     "simplifield"
   ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
   "devDependencies": {
-    "conventional-changelog-cli": "1.3.9",
-    "eslint": "4.10.0",
+    "conventional-changelog-cli": "2.0.1",
+    "eslint": "5.2.0",
     "husky": "0.14.3",
-    "mocha": "5.0.0",
-    "prettier": "1.10.2"
+    "mocha": "5.2.0",
+    "prettier": "1.13.7"
   },
   "peerDependencies": {},
   "dependencies": {
     "eslint-config-angular": "0.5.0",
-    "eslint-plugin-angular": "3.1.1",
+    "eslint-plugin-angular": "3.3.0",
     "eslint-plugin-mongodb": "1.0.0",
-    "eslint-plugin-node": "5.2.1",
-    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "3.8.0",
     "eslint-plugin-security": "1.4.0"
   }
 }

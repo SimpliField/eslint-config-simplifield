@@ -62,7 +62,6 @@ describe.only();\n`;
           nodeType: 'MemberExpression',
           ruleId: 'no-restricted-properties',
           severity: 2,
-          source: 'describe.only();',
         },
       ]);
       assert.equal(output.errorCount, 1);
