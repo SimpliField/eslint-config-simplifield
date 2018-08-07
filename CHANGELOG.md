@@ -1,3 +1,13 @@
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v8.0.0...v8.1.0) (2018-08-07)
+
+
+### Features
+
+* remove annoying no-magic-numbers rule ([c6897d2](https://github.com/SimpliField/eslint-config-simplifield/commit/c6897d2))
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v7.1.1...v8.0.0) (2018-07-26)
 

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplifield",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "Simplifield Lint rules",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
