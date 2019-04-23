@@ -68,46 +68,4 @@ describe.only();\n`;
       assert.equal(output.warningCount, 0);
     });
   });
-
-  describe('with backend configuration', () => {
-    beforeEach(() => {
-      cli = new CLIEngine({
-        useEslintrc: false,
-        configFile: 'lib/backend.js',
-      });
-    });
-
-    it('should return no error', () => {
-      const code = `
-'use strict';
-const beer = 4;
-const cost = 2.5;
-
-function bar(drink) { return drink * cost; }
-bar(beer);\n`;
-
-      assertCode(code);
-    });
-  });
-  describe('with frontend configuration', () => {
-    beforeEach(() => {
-      cli = new CLIEngine({
-        useEslintrc: false,
-        configFile: 'lib/frontend.js',
-      });
-    });
-
-    it('should return no error', () => {
-      const code = `
-(function iife() {
-  const beer = 4;
-  const cost = 2.5;
-
-  function bar(drink) { return drink * cost; }
-  bar(beer);
-}());\n`;
-
-      assertCode(code);
-    });
-  });
 });
