@@ -1,3 +1,13 @@
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v8.1.0...v9.0.0) (2019-04-30)
+
+
+### Features
+
+* Create new common rules to uniformize eslint accross repos ([aeef832](https://github.com/SimpliField/eslint-config-simplifield/commit/aeef832))
+
+
+
 <a name="8.1.0"></a>
 # [8.1.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v8.0.0...v8.1.0) (2018-08-07)
 
