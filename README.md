@@ -50,7 +50,7 @@ Sample `.eslintrc` using this plugin:
 A `.eslintrc` for frontend with react & flow:
 ```json
 {
-  "extends": "eslint-config-simplifield/lib/frontend",
+  "extends": "eslint-config-simplifield",
   "plugins": [ "react", "flowtype" ],
   "parser": "babel-eslint",
   "parserOptions": {
