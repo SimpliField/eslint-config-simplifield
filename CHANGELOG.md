@@ -1,3 +1,7 @@
+# [10.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v9.0.0...v10.0.0) (2019-07-05)
+
+
+
 <a name="9.0.0"></a>
 # [9.0.0](https://github.com/SimpliField/eslint-config-simplifield/compare/v8.1.0...v9.0.0) (2019-04-30)
 
