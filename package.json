@@ -22,22 +22,15 @@
     "simplifield"
   ],
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 8.0.0"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "2.0.1",
-    "eslint": "5.2.0",
-    "husky": "0.14.3",
-    "mocha": "5.2.0",
-    "prettier": "1.13.7"
+    "conventional-changelog-cli": "2.0.21",
+    "eslint": "6.0.1",
+    "husky": "3.0.0",
+    "mocha": "6.1.4",
+    "prettier": "1.18.2"
   },
   "peerDependencies": {},
-  "dependencies": {
-    "eslint-config-angular": "0.5.0",
-    "eslint-plugin-angular": "3.3.0",
-    "eslint-plugin-mongodb": "1.0.0",
-    "eslint-plugin-node": "7.0.1",
-    "eslint-plugin-promise": "3.8.0",
-    "eslint-plugin-security": "1.4.0"
-  }
+  "dependencies": {}
 }
