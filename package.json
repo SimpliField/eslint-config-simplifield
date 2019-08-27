@@ -3,12 +3,10 @@
   "version": "10.0.0",
   "description": "Simplifield Lint rules",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "test": "mocha test/*.mocha.js",
     "lint": "eslint index.js lib/*.js test/*.js",
     "prettify": "prettier --write index.js lib/*.js test/*.js",
-    "precommit": "npm run prettify && npm test",
-    "version": "npm run changelog && git add CHANGELOG.md"
+    "precommit": "npm run prettify && npm test"
   },
   "repository": {
     "type": "git",
@@ -25,9 +23,7 @@
     "node": ">= 8.0.0"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "2.0.21",
     "eslint": "6.0.1",
-    "husky": "3.0.0",
     "mocha": "6.1.4",
     "prettier": "1.18.2"
   },
