@@ -45,17 +45,22 @@ module.exports = {
     templateStrings: true,
     unicodeCodePointEscapes: true,
   },
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   rules: {
     'array-callback-return': ERROR,
     'block-scoped-var': ERROR,
     'class-methods-use-this': ERROR,
-    'comma-dangle': [ERROR, {
-      "arrays": "only-multiline",
-      "objects": "only-multiline",
-      "imports": "only-multiline",
-      "exports": "only-multiline",
-      "functions": "never",
-    }],
+    'comma-dangle': [
+      ERROR,
+      {
+        arrays: 'only-multiline',
+        objects: 'only-multiline',
+        imports: 'only-multiline',
+        exports: 'only-multiline',
+        functions: 'never',
+      },
+    ],
     'comma-spacing': [ERROR, { before: false, after: true }],
     'comma-style': [ERROR, 'last'],
     complexity: [WARN, COMPLEXITY_MAX],
@@ -168,4 +173,25 @@ module.exports = {
     'wrap-iife': ERROR,
     yoda: [WARN, 'never'],
   },
+  overrides: [
+    {
+      files: ['*.ts'],
+      rules: {
+        '@typescript-eslint/array-type': 'warn',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: 'interface',
+            format: ['PascalCase'],
+            custom: {
+              regex: '^I[A-Z]',
+              match: false,
+            },
+          },
+        ],
+      },
+      extends: ['plugin:@typescript-eslint/recommended'],
+    },
+  ],
 };
