@@ -175,12 +175,13 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts'],
+      files: ['*.ts', '*.tsx'],
       rules: {
-        '@typescript-eslint/array-type': 'warn',
-        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/array-type': WARN,
+        '@typescript-eslint/no-explicit-any': OFF,
+        "@typescript-eslint/no-empty-function": OFF,
         '@typescript-eslint/naming-convention': [
-          'error',
+          ERROR,
           {
             selector: 'interface',
             format: ['PascalCase'],
